@@ -1,6 +1,6 @@
 function evaluate(s,ans) {
   s = s.replace(/x/g,"*");
-  s = s.replace(/?/g,"/");
+  s = s.replace(/÷/g,"/");
   s = s.replace(/ANS/g,ans);
   return eval(s);
 }
@@ -69,7 +69,7 @@ $( document ).ready(function() {
 
       if ("/*-+".indexOf(currText[lastChar]) == -1) {
         if (id=="/") {
-          $(".curr").append(" ? ");
+          $(".curr").append(" ÷ ");
         }
         else if (id=="*") {
           $(".curr").append(" x ");
