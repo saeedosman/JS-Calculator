@@ -3,7 +3,7 @@ body {
     font-family: Montserrat, sans-serif;
 }
 #calculator {
-    margin: 15% auto 0 auto;
+    margin: 10% auto 20px auto;
     padding: 20px 30px;
     height: 450px;
     width: 300px;
@@ -20,6 +20,7 @@ body {
 }
 .curr {
     font-size: 24px;
+    float: right;
 }
 #input {
     padding: 15px 20px 8px 15px;
@@ -27,6 +28,7 @@ body {
     background-color: #eeeeee;
     text-align: right;
     overflow-x: hidden;
+    white-space: nowrap;
     /*color:gray;*/
 }
 .b,
