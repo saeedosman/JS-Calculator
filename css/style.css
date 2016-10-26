@@ -1,60 +1,49 @@
 body {
-  background-color:#eeeeee;
-  font-family:Montserrat, sans-serif;
+    background-color: #eeeeee;
+    font-family: Montserrat, sans-serif;
 }
-
 #calculator {
-  margin: 15% auto 0 auto;
-  padding: 20px 30px;
-  height:450px;
-  width:300px;
-  background-color:white;
-  border-radius:15px;
-  box-shadow: 0px 0px 57px -3px rgba(0,0,0,0.15);
+    margin: 15% auto 0 auto;
+    padding: 20px 30px;
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 57px -3px rgba(0, 0, 0, 0.15);
 }
-
 #name {
-  color:gray;
-  text-align:center;
+    color: gray;
+    text-align: center;
 }
-
 .prev {
-  font-size:12px;
+    font-size: 12px;
 }
-
 .curr {
-  font-size:24px;
+    font-size: 24px;
 }
-
 #input {
-  padding: 15px 20px 8px 15px;
-  margin-top:15px;
-  background-color:#eeeeee;
-  text-align:right;
-  overflow-x:hidden;
-  
-  /*color:gray;*/
+    padding: 15px 20px 8px 15px;
+    margin-top: 15px;
+    background-color: #eeeeee;
+    text-align: right;
+    overflow-x: hidden;
+    /*color:gray;*/
 }
-
-
-
-.b, .blank {
-  verticle-align:center;
-  padding: 10px;
-  width:50px;
-  display:inline-block;
+.b,
+.blank {
+    verticle-align: center;
+    padding: 10px;
+    width: 50px;
+    display: inline-block;
 }
-
 #buttons {
-  text-align:justified;
+    text-align: justified;
 }
-
 .rowb {
-  margin-top:15px;
-  display:flex;
-  justify-content:space-between;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
 }
-
 #ANS {
-  font-size:11px;
+    font-size: 11px;
 }
